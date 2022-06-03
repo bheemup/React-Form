@@ -50,8 +50,7 @@ function Form() {
   return (
     <>
          <form action="">
-            <br />
-            <br />
+          
           <div>
             <label htmlFor="name">Name : </label>
             <input type="text" placeholder='Enter Your Name'
@@ -73,7 +72,7 @@ function Form() {
             name='password' value={form.password}  onChange={handleChange}/>
           </div>
           <div>
-            <label htmlFor="Address">Address</label>
+            <label htmlFor="Address">Address :</label>
             <input type="text" placeholder='Address..' name='Address'
             value={form.Address} onChange={handleChange} />
           </div>
